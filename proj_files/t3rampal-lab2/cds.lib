@@ -1,0 +1,4 @@
+INCLUDE tech.lib
+DEFINE ece720t7 /home/t3rampal/ece720t7-f24/labs/t3rampal-lab2/ece720t7
+#Removed by ddDeleteObj: DEFINE idk /home/t3rampal/ece720t7-f24/labs/t3rampal-lab2/idk
+DEFINE avTech /CMC/tools/cadence/ASSURA04.16.102-618_lnx86/tools.lnx86/assura/etc/avtech/avTech

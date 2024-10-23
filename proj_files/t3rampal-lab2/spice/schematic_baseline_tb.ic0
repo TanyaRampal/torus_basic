@@ -1,0 +1,20 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "R-2020.12-SP2-2 linux64"
+* "format" "HSP"
+* "rundate" "01:49:05 10/23/2024 "
+* "netlist" "schematic_baseline_tb.sp "
+* "runtitle" ".option"
+* time =  0.000000e+00    
+* temperature =  2.500000e+01    
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000000e-12    
+.nodeset
++ c = 4.161648e-11    
++ i = 0.000000e+00    
++ o = 3.140243e-11    
++ vdd = 1.000000e+00    
++ vss = 0.000000e+00    
++ xdut1.net0 = 9.999894e-01    
++ xdut2.net0 = 9.999894e-01    
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,6 @@
+Using: /CMC/tools/synopsys/hspice_vR-2020.12-SP2-2/hspice/R-2020.12-SP2-2/hspice/linux64/hspice schematic_tb.sp
+  Start time: Wed Oct 23 01:46:19 2024
+           job total runtime         0.00 seconds
+
+
+ lic: total license checkout elapse time:        0.00(s)

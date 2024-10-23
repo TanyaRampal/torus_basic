@@ -1,0 +1,17 @@
+### Custom WaveView ADV log file, revision N-2017.12-SP1 (build Feb 27, ) ###
+### created at 22:27:44 on Mon Oct 21 2024 (Linux AMD64) ###
+### Host Name: jane   User ID: t3rampal   PID: 10366   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+sx_load_session "tx_session_file.sx"
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 5.62144e-10 0.422217
+wv_drag_item_to WV1 163 265
+wv_zoom WV1.PANEL2:1 5.62144e-10 0.422217 3.06271e-09 0.533728
+wv_close_window {Custom WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
+#*WARNING* Can not remove '/home/t3rampal/.cx_hostport/.cx_hostport_jane_10366'.

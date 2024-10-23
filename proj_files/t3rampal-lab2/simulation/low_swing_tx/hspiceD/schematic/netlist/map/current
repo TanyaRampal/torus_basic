@@ -1,0 +1,25 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "low_swing_tx"
+  repList "hspiceD spice cmos_sch cmos.sch schematic"
+  stopList "hspiceD spice"
+  hierDelim "^"
+  netlistDir "/home/t3rampal/ece720t7-f24/labs/t3rampal-lab2/simulation/low_swing_tx/hspiceD/schematic/netlist"
+ )
+( model
+( "ece720t7/low_swing_tx/schematic" "low_swing_tx" )
+ )
+( param
+( "F" "f" )
+( "L3" "l3" )
+( "L1" "l1" )
+( "W2" "w2" )
+( "L2" "l2" )
+( "W4" "w4" )
+( "L4" "l4" )
+( "W1" "w1" )
+( "W3" "w3" )
+ )
+( "low_swing_tx" "ihnl/cds0/map" )
+ )

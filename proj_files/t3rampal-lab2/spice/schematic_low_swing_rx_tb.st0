@@ -1,0 +1,119 @@
+****** PrimeSim HSPICE -- R-2020.12-SP2-2 linux64 (Jul 29 2021 7189106) ******
+Input File: schematic_low_swing_rx_tb.sp
+lic:
+lic: FLEXlm: SDK_12.9.5
+lic: USER:   t3rampal             HOSTNAME: jane
+lic: HOSTID: 6c0b84a93a21         PID:      27888
+lic: Using FLEXlm license file:
+lic: 6053@cadpass2.eng.uwaterloo.ca
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 01-feb-2025/2023.12
+lic: 1(in_use)/500(total) FLOATING license(s) on SERVER 6053@cadpass2.eng.uwaterloo.ca
+lic:
+
+ init: begin read circuit files, cpu clock= 6.25E-01
+       option search = /CMC/tools/synopsys/hspice_vR-2020.12-SP2-2/hspi
+                         ce/R-2020.12-SP2-2/hspice/parts/ad
+       option nomod
+       option ingold =     2.00
+       option newtol
+       option numdgt =     7.00
+       option relmos =    1.000E-04
+       option absmos =    1.000E-08
+       option relv =    1.000E-04
+       option relvdc =    1.000E-04
+       option modsrh =     0.00
+       option scale =     1.00
+       option measform =     3.00
+       option post
+       option posttop =     1.00
+       option artist =     2.00
+       option ingold =     2.00
+       option parhier = local
+       option psf =     2.00
+ init: end read circuit files, cpu clock= 6.41E-01 peak memory=     529 mb
+ init: begin check errors, cpu clock= 6.41E-01
+ init: end check errors, cpu clock= 6.52E-01 peak memory=     530 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 6.52E-01
+       establish matrix -- done, cpu clock= 6.52E-01 peak memory=     530 mb
+       re-order matrix -- done, cpu clock= 6.52E-01 peak memory=     530 mb
+ init: end setup matrix, cpu clock= 6.52E-01 peak memory=     530 mb
+ sweep: data            data1            begin, #sweeps =   5
+ data: data=width_sweep     w5              =    2.40E-07
+ dcop: begin dcop, cpu clock= 6.52E-01
+ dcop: end dcop, cpu clock= 6.53E-01 peak memory=     530 mb tot_iter=       4
+ sweep: tran tran1    begin, stop_t=  1.70E-08 #sweeps=**** cpu clock= 6.53E-01
+ tran: time= 1.8168E-09 tot_iter=     128 conv_iter=      50 cpu clock= 6.55E-01
+ tran: time= 3.4278E-09 tot_iter=     364 conv_iter=     137 cpu clock= 6.57E-01
+ tran: time= 5.1000E-09 tot_iter=     544 conv_iter=     204 cpu clock= 6.60E-01
+ tran: time= 7.0000E-09 tot_iter=     735 conv_iter=     274 cpu clock= 6.62E-01
+ tran: time= 8.5458E-09 tot_iter=     973 conv_iter=     362 cpu clock= 6.65E-01
+ tran: time= 1.0216E-08 tot_iter=    1205 conv_iter=     447 cpu clock= 6.68E-01
+ tran: time= 1.2000E-08 tot_iter=    1330 conv_iter=     496 cpu clock= 6.69E-01
+ tran: time= 1.3817E-08 tot_iter=    1568 conv_iter=     584 cpu clock= 6.72E-01
+ tran: time= 1.5312E-08 tot_iter=    1800 conv_iter=     669 cpu clock= 6.75E-01
+ tran: time= 1.7000E-08 tot_iter=    1814 conv_iter=     676 cpu clock= 6.75E-01
+ sweep: tran tran1    end, cpu clock= 6.75E-01 peak memory=     530 mb
+ data: data=width_sweep     w5              =    2.40E-07
+ dcop: begin dcop, cpu clock= 6.80E-01
+ dcop: end dcop, cpu clock= 6.80E-01 peak memory=     530 mb tot_iter=       8
+ sweep: tran tran2    begin, stop_t=  1.70E-08 #sweeps=**** cpu clock= 6.81E-01
+ tran: time= 1.7220E-09 tot_iter=     150 conv_iter=      58 cpu clock= 6.82E-01
+ tran: time= 3.4357E-09 tot_iter=     406 conv_iter=     153 cpu clock= 6.86E-01
+ tran: time= 5.1000E-09 tot_iter=     611 conv_iter=     229 cpu clock= 6.88E-01
+ tran: time= 7.0000E-09 tot_iter=     801 conv_iter=     301 cpu clock= 6.90E-01
+ tran: time= 8.5276E-09 tot_iter=    1065 conv_iter=     400 cpu clock= 6.93E-01
+ tran: time= 1.0203E-08 tot_iter=    1321 conv_iter=     494 cpu clock= 6.97E-01
+ tran: time= 1.2000E-08 tot_iter=    1484 conv_iter=     557 cpu clock= 6.98E-01
+ tran: time= 1.3601E-08 tot_iter=    1743 conv_iter=     651 cpu clock= 7.02E-01
+ tran: time= 1.5301E-08 tot_iter=    1986 conv_iter=     741 cpu clock= 7.04E-01
+ tran: time= 1.7000E-08 tot_iter=    2016 conv_iter=     755 cpu clock= 7.05E-01
+ sweep: tran tran2    end, cpu clock= 7.05E-01 peak memory=     530 mb
+ data: data=width_sweep     w5              =    3.60E-07
+ dcop: begin dcop, cpu clock= 7.10E-01
+ dcop: end dcop, cpu clock= 7.10E-01 peak memory=     530 mb tot_iter=      12
+ sweep: tran tran3    begin, stop_t=  1.70E-08 #sweeps=**** cpu clock= 7.11E-01
+ tran: time= 1.7727E-09 tot_iter=     140 conv_iter=      53 cpu clock= 7.12E-01
+ tran: time= 3.4543E-09 tot_iter=     406 conv_iter=     147 cpu clock= 7.15E-01
+ tran: time= 5.1000E-09 tot_iter=     595 conv_iter=     214 cpu clock= 7.18E-01
+ tran: time= 7.0000E-09 tot_iter=     818 conv_iter=     291 cpu clock= 7.20E-01
+ tran: time= 8.7231E-09 tot_iter=    1084 conv_iter=     385 cpu clock= 7.23E-01
+ tran: time= 1.0228E-08 tot_iter=    1340 conv_iter=     475 cpu clock= 7.26E-01
+ tran: time= 1.2000E-08 tot_iter=    1491 conv_iter=     531 cpu clock= 7.28E-01
+ tran: time= 1.3712E-08 tot_iter=    1757 conv_iter=     625 cpu clock= 7.31E-01
+ tran: time= 1.5348E-08 tot_iter=    2035 conv_iter=     722 cpu clock= 7.34E-01
+ tran: time= 1.7000E-08 tot_iter=    2045 conv_iter=     727 cpu clock= 7.34E-01
+ sweep: tran tran3    end, cpu clock= 7.34E-01 peak memory=     530 mb
+ data: data=width_sweep     w5              =    1.20E-07
+ dcop: begin dcop, cpu clock= 7.38E-01
+ dcop: end dcop, cpu clock= 7.38E-01 peak memory=     530 mb tot_iter=      16
+ sweep: tran tran4    begin, stop_t=  1.70E-08 #sweeps=**** cpu clock= 7.38E-01
+ tran: time= 1.8289E-09 tot_iter=     124 conv_iter=      50 cpu clock= 7.40E-01
+ tran: time= 3.4386E-09 tot_iter=     392 conv_iter=     150 cpu clock= 7.43E-01
+ tran: time= 5.1000E-09 tot_iter=     607 conv_iter=     231 cpu clock= 7.46E-01
+ tran: time= 7.0000E-09 tot_iter=     840 conv_iter=     317 cpu clock= 7.48E-01
+ tran: time= 8.5085E-09 tot_iter=    1126 conv_iter=     423 cpu clock= 7.52E-01
+ tran: time= 1.0233E-08 tot_iter=    1397 conv_iter=     523 cpu clock= 7.55E-01
+ tran: time= 1.2000E-08 tot_iter=    1560 conv_iter=     586 cpu clock= 7.57E-01
+ tran: time= 1.3740E-08 tot_iter=    1848 conv_iter=     693 cpu clock= 7.60E-01
+ tran: time= 1.5321E-08 tot_iter=    2124 conv_iter=     795 cpu clock= 7.63E-01
+ tran: time= 1.7000E-08 tot_iter=    2144 conv_iter=     804 cpu clock= 7.64E-01
+ sweep: tran tran4    end, cpu clock= 7.64E-01 peak memory=     530 mb
+ data: data=width_sweep     w5              =    1.20E-07
+ dcop: begin dcop, cpu clock= 7.64E-01
+ dcop: end dcop, cpu clock= 7.64E-01 peak memory=     530 mb tot_iter=      20
+ sweep: tran tran5    begin, stop_t=  1.70E-08 #sweeps=**** cpu clock= 7.65E-01
+ tran: time= 1.8289E-09 tot_iter=     124 conv_iter=      50 cpu clock= 7.66E-01
+ tran: time= 3.4386E-09 tot_iter=     392 conv_iter=     150 cpu clock= 7.70E-01
+ tran: time= 5.1000E-09 tot_iter=     607 conv_iter=     231 cpu clock= 7.72E-01
+ tran: time= 7.0000E-09 tot_iter=     840 conv_iter=     317 cpu clock= 7.75E-01
+ tran: time= 8.5085E-09 tot_iter=    1126 conv_iter=     423 cpu clock= 7.79E-01
+ tran: time= 1.0233E-08 tot_iter=    1397 conv_iter=     523 cpu clock= 7.82E-01
+ tran: time= 1.2000E-08 tot_iter=    1560 conv_iter=     586 cpu clock= 7.84E-01
+ tran: time= 1.3740E-08 tot_iter=    1848 conv_iter=     693 cpu clock= 7.87E-01
+ tran: time= 1.5321E-08 tot_iter=    2124 conv_iter=     795 cpu clock= 7.90E-01
+ tran: time= 1.7000E-08 tot_iter=    2144 conv_iter=     804 cpu clock= 7.91E-01
+ sweep: tran tran5    end, cpu clock= 7.91E-01 peak memory=     530 mb
+ sweep: data            data            1 end
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

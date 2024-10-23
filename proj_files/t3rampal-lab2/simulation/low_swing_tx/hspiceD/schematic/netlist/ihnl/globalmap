@@ -1,0 +1,17 @@
+CADENCE IHNL11140
+$model
+ece720t7/low_swing_tx/schematic low_swing_tx
+$endmodel
+$net
+$endnet
+$param
+L1 l1
+L4 l4
+W1 w1
+W2 w2
+L3 l3
+W4 w4
+F f
+W3 w3
+L2 l2
+$endparam
